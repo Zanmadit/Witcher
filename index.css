@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('back.jpg');
+}
+
+#navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 50%;
+    top: 10px;
+    right: 0;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar {
+        background-color: #8d8c8c;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.brand {
+    margin-top: 16px;
+    margin-left: 50px;
+}
+
+.brand a {
+    text-decoration: none; 
+    color: #000; 
+}
+  
+.brand a:hover {
+    color: #5a5959; 
+    text-decoration: none; 
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+  
+#navbar a {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+}
+  
+#navbar.dark-bg {
+    background-color: #8d8c8c; 
+}
+  
+#navbar.dark-bg a {
+    color: #fff; 
+}
+  
+.content-1 { 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imtex {
+    width: 80%;
+    padding: 20px;
+}
+
+.image-and-text-link {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    align-items: center; 
+}
+
+.imager {
+    width: 50%;
+    margin-left: 48px;
+}
+
+.textim {
+    width: 30%;
+    flex: 1;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 64px;
+    margin-right: 48px;
+    margin-bottom: 0;
+}
+
+.footer {   
+    background-color: #333; 
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; 
+}
+
+.footer h2 {
+    color: #fff; 
+}
+
+.footer p {
+    color: #ccc; 
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    width: 80%; 
+}
+  
+.dropdown-item {
+    width: 100%;
+}
+
+.dropdown-item h5{
+    width: 100%;
+}
+
+.dropdown-item img {
+    width: 30%;
+    height: 200px;
+}
+
+.dropdown-item-text{
+    margin-right: 16px;
+    width: 50%;
+}
+  
+.dropdown-item div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+.card{
+    width: 60%; 
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.center-hr {
+    display: flex;
+    justify-content: center;
+}
+  
+.line {
+    width: 90%;
+    border: 0;
+    height: 1px; 
+    background-color: #000;
+}
+
+.mini-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tab {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.tab:hover {
+    background-color: #f2f2f2;
+}
+
+.tab.active {
+    background-color: #ddd;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tab-content {
+    display: none;
+    width: 100%;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width: 100%; 
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video-item {
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    width:100%;
+    height: 400px; 
+    box-sizing: border-box; 
+}
+
+.video-item iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.ques h3{
+    margin-left: 10px;
+}
+
+.ques{
+    width: 50%;
+    margin-left: 30px;
+    margin-bottom: 32px;
+}
+
+.textim p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
