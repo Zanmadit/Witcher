@@ -1,13 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-  const clickSound = new Audio('sound 1.wav'); 
-
-  const imtextElement = document.querySelector('.navbar-brand');
-  imtextElement.addEventListener('click', function() {
-      clickSound.play();
-  });
-});
-
 function myFunction() {
   document.getElementById("agree").click();
 }
