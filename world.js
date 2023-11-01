@@ -19,11 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const clickSound = new Audio('sound.wav'); 
   
-    const imtextElement = document.querySelector('.imtext');
+    const imtextElement = document.querySelector('.navbar-brand');
     imtextElement.addEventListener('click', function() {
         clickSound.play();
     });
   });
+
   document.addEventListener("DOMContentLoaded", function() {
     const captchaCode = Math.floor(Math.random() * 10000);
   
