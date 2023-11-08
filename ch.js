@@ -33,6 +33,18 @@ $('img').on('contextmenu', function(e) {
     return false;
 });
 
+$(document).ready(function(){
+    $(".sec p").mouseover(function(){
+        $(this).css("background-color", "#B0B0B0");
+    });
+});
+
+$(document).ready(function(){
+    $(".info p").mouseover(function(){
+        $(this).css("background-color", "#B0B0B0");
+    });
+});
+
 const leftAnimatedElement = document.querySelector('.left-animated');
 const rightAnimatedElement = document.querySelector('.right-animated');
 let leftPosition = 0;

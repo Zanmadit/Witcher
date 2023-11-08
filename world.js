@@ -34,3 +34,9 @@ $('img').on('contextmenu', function(e) {
     e.preventDefault();
     return false;
 });
+
+$(document).ready(function(){
+    $(".card p").mouseover(function(){
+        $(this).css("background-color", "#B0B0B0");
+    });
+});
